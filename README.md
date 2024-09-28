@@ -8,27 +8,27 @@
     <div class="container">
         <h1>📋 • Cadastro de Clientes</h1>
         <p>
-            Este projeto é um sistema de Cadastro de Clientes que implementa funcionalidades de CRUD: 
-            Criação, Leitura, Atualização e Exclusão de registros. Utiliza o MySQL Workbench para modelar 
-            e se conectar a um banco de dados MySQL, permitindo uma gestão eficiente dos dados dos clientes.
+            Este projeto é um sistema de Cadastro de Clientes que implementa funcionalidades de CRUD (Criação, Leitura, Atualização e Exclusão de registros) e utiliza o MySQL Workbench para gerenciar um banco de dados MySQL.
         </p>
-        
-  <br><br><br>
 
-  <h2>⚙️ • Configuração</h2>
-        <p>Para que o sistema funcione corretamente, siga os passos abaixo:</p>
+<br><br><br>
+
+<h2>⚙️ • Configuração</h2>
         <ol>
             <li>
-                Verifique se o <strong>IntelliJ IDEA</strong> está instalado em sua máquina como ambiente de desenvolvimento integrado (IDE).
+                Verifique se o <strong>IntelliJ IDEA</strong> está instalado.
             </li>
             <li>
-                Assegure-se de que o <strong>Maven</strong> está configurado corretamente no IntelliJ IDEA, pois será utilizado como ferramenta de automação de build.
+                Assegure-se de que o <strong>Maven</strong> está configurado no IntelliJ IDEA.
             </li>
             <li>
-                Utilize o <strong>MySQL Workbench</strong> para configurar seu banco de dados. Ajuste as configurações de banco de dados, usuário e senha na classe <code>Conexao</code> dentro da pasta <code>conexao</code>.
+                Ajuste as configurações de banco de dados na classe <code>Conexao</code> na pasta <code>conexao</code>.
             </li>
             <li>
-                Crie o banco de dados e a tabela necessária utilizando o código SQL abaixo no MySQL Workbench:
+                O projeto foi desenvolvido em <strong>Java</strong> com <strong>JDK 21 LTS</strong>.
+            </li>
+            <li>
+                Crie o banco de dados e a tabela utilizando o código SQL abaixo:
             </li>
         </ol>
         <pre><code>CREATE DATABASE CLIENTES_DB;
@@ -42,21 +42,19 @@ CREATE TABLE CLIENTES (
     NOME VARCHAR(150) NOT NULL,
     LIMITE_CREDITO NUMERIC(10, 2) NOT NULL
 );</code></pre>
-        
-  <br><br><br>
 
-  <h2>🚀 • Execução</h2>
+<br><br><br>
+
+<h2>🚀 • Execução</h2>
         <p>
-            Para iniciar o formulário de cadastro de clientes, abra o projeto no <strong>IntelliJ IDEA</strong> e execute a 
-            classe <code>ClienteFormulario</code>, que está localizada na pasta <code>formularios</code>.
+            Para iniciar o formulário de cadastro, execute a classe <code>ClienteFormulario</code> na pasta <code>formularios</code>.
         </p>
-        
-  <br><br><br>
 
-  <h2>📜 • Licença</h2>
+<br><br><br>
+
+<h2>📜 • Licença</h2>
         <p>
-            Este projeto está licenciado sob a <strong>Licença MIT</strong>, permitindo sua utilização, modificação e 
-            distribuição de forma livre, desde que os devidos créditos sejam concedidos.
+            Este projeto está licenciado sob a <strong>Licença MIT</strong>.
         </p>
     </div>
 </body>

@@ -1,4 +1,4 @@
-package dao;
+package dao
 
 import conexao.Conexao;
 import modelos.Cliente;

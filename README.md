@@ -8,28 +8,27 @@
     <div class="container">
         <h1>📋 • Cadastro de Clientes</h1>
         <p>
-            Este projeto é um sistema de Cadastro de Clientes que implementa funcionalidades de CRUD (Criação, Leitura, Atualização e Exclusão de registros) e utiliza o MySQL Workbench para gerenciar um banco de dados MySQL.
+            Este projeto consiste em um sistema de Cadastro de Clientes que permite realizar operações de CRUD (Criação, Leitura, Atualização e Exclusão) utilizando um banco de dados MySQL gerenciado pelo MySQL Workbench.
         </p>
+
+<br><br><br>
+
+<h2>🛠️ • Tecnologias Utilizadas</h2>
+        <ul>
+            <li><strong>Java</strong> (JDK 21 LTS)</li>
+            <li><strong>MySQL</strong> (Banco de Dados)</li>
+            <li><strong>Maven</strong> (Gerenciador de Dependências)</li>
+            <li><strong>IntelliJ IDEA</strong> (IDE)</li>
+        </ul>
 
 <br><br><br>
 
 <h2>⚙️ • Configuração</h2>
         <ol>
-            <li>
-                Verifique se o <strong>IntelliJ IDEA</strong> está instalado.
-            </li>
-            <li>
-                Assegure-se de que o <strong>Maven</strong> está configurado no IntelliJ IDEA.
-            </li>
-            <li>
-                Ajuste as configurações de banco de dados na classe <code>Conexao</code> na pasta <code>conexao</code>.
-            </li>
-            <li>
-                O projeto foi desenvolvido em <strong>Java</strong> com <strong>JDK 21 LTS</strong>.
-            </li>
-            <li>
-                Crie o banco de dados e a tabela utilizando o código SQL abaixo:
-            </li>
+            <li>Verifique se o <strong>IntelliJ IDEA</strong> está instalado.</li>
+            <li>Certifique-se de que o <strong>Maven</strong> está configurado no IntelliJ IDEA.</li>
+            <li>Atualize as configurações do banco de dados na classe <code>Conexao</code> na pasta <code>conexao</code>.</li>
+            <li>Crie o banco de dados e a tabela utilizando o seguinte código SQL:</li>
         </ol>
         <pre><code>CREATE DATABASE CLIENTES_DB;
 
@@ -47,14 +46,22 @@ CREATE TABLE CLIENTES (
 
 <h2>🚀 • Execução</h2>
         <p>
-            Para iniciar o formulário de cadastro, execute a classe <code>ClienteFormulario</code> na pasta <code>formularios</code>.
+            Para iniciar o formulário de cadastro, execute a classe <code>ClienteFormulario</code> (Java) localizada na pasta <code>formularios</code>.
         </p>
 
 <br><br><br>
 
 <h2>📜 • Licença</h2>
         <p>
-            Este projeto está licenciado sob a <strong>Licença MIT</strong>.
+            Este projeto é licenciado sob a <strong>Licença MIT</strong>.
+        </p>
+
+<br><br><br>
+
+<h2>📬 • Contato</h2>
+        <p>
+            Para dúvidas, sugestões ou feedback, entre em contato pelo email: 
+            <a href="mailto:scythe.github@gmail.com">scythe.github@gmail.com</a>
         </p>
     </div>
 </body>

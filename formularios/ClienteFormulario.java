@@ -1,7 +1,7 @@
 package formularios;
 
 import dao.ClienteDao;
-import modelo.Cliente;
+import modelos.Cliente;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

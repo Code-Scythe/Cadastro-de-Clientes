@@ -1,4 +1,4 @@
-package formularios
+package formularios;
 
 import dao.ClienteDao;
 import modelos.Cliente;

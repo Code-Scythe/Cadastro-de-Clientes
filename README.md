@@ -13,6 +13,11 @@
 
 <br><br><br>
 
+<h2>🌟 • Visão Geral do Projeto</h2>
+        <img src="https://raw.githubusercontent.com/Code-Scythe/Cadastro-de-Clientes/refs/heads/main/imagens/Cadastro%20de%20Clientes.png" alt="Visão Geral do Projeto" style="max-width: 100%; height: auto;">
+
+<br><br><br>
+
 <h2>🛠️ • Tecnologias Utilizadas</h2>
         <ul>
             <li><strong>Java</strong> (JDK 21 LTS)</li>

@@ -8,7 +8,7 @@
     <div class="container">
         <h1>📋 • Cadastro de Clientes</h1>
         <p>
-            Este projeto consiste em um sistema de Cadastro de Clientes que permite realizar operações de CRUD (Criação, Leitura, Atualização e Exclusão) utilizando um banco de dados MySQL gerenciado pelo MySQL Workbench.
+            Este projeto consiste em um sistema de Cadastro de Clientes que permite realizar operações de CRUD (Criação, Leitura, Atualização e Exclusão) utilizando um banco de dados MySQL.
         </p>
 
 <br><br><br>
@@ -19,6 +19,7 @@
             <li><strong>MySQL</strong> (Banco de Dados)</li>
             <li><strong>Maven</strong> (Gerenciador de Dependências)</li>
             <li><strong>IntelliJ IDEA</strong> (IDE)</li>
+            <li><strong>JDBC</strong> (Java Database Connectivity)</li>
         </ul>
 
 <br><br><br>
@@ -27,7 +28,7 @@
         <ol>
             <li>Verifique se o <strong>IntelliJ IDEA</strong> está instalado.</li>
             <li>Certifique-se de que o <strong>Maven</strong> está configurado no IntelliJ IDEA.</li>
-            <li>Atualize as configurações do banco de dados na classe <code>Conexao</code> na pasta <code>conexao</code>.</li>
+            <li>Atualize as configurações do banco de dados na classe <code>Conexao</code>.</li>
             <li>Crie o banco de dados e a tabela utilizando o seguinte código SQL:</li>
         </ol>
         <pre><code>CREATE DATABASE CLIENTES_DB;
@@ -46,7 +47,7 @@ CREATE TABLE CLIENTES (
 
 <h2>🚀 • Execução</h2>
         <p>
-            Para iniciar o formulário de cadastro, execute a classe <code>ClienteFormulario</code> (Java) localizada na pasta <code>formularios</code>.
+            Para iniciar o formulário de cadastro, execute a classe <code>ClienteFormulario</code> localizada na pasta <code>formularios</code>.
         </p>
 
 <br><br><br>
